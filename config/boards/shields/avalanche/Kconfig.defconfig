@@ -1,7 +1,7 @@
 if SHIELD_AVALANCHE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Avalanche"
+    default "Rowalanche"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
@@ -13,7 +13,6 @@ if SHIELD_AVALANCHE_LEFT || SHIELD_AVALANCHE_RIGHT
 config ZMK_SPLIT
     default y
 if ZMK_DISPLAY
-
 config I2C
 	default y
 
