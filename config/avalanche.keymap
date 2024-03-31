@@ -1,6 +1,6 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     behaviors {
@@ -70,7 +70,7 @@
             bindings = <
 &trans  &trans         &trans         &trans         &trans         &trans                           &trans        &trans      &trans        &trans        &trans         &trans
 &trans  &kp LS(UNDER)  &kp LS(PIPE)   &kp MINUS      &kp LS(LT)     &kp EQUAL                        &kp LS(EXCL)  &kp LS(GT)  &kp PLUS      &kp FSLH      &kp LS(AMPS)   &trans
-&trans  &trans         &kp LS(CARET)  &kp LS(TILDE)  &kp LS(LPAR)   &kp LS(LBRC)   &kp LBKT                        &kp RBKT    &kp LS(RBRC)  &kp LS(RPAR)  &kp LS(DQT)    &kp LS(STAR)  &trans  &trans
+&trans  &trans         &kp LS(CARET)  &kp LS(TILDE)  &kp LS(LPAR)   &kp LS(LBRC)   &kp LBKT                        &kp RBKT    &kp LS(RBRC)  &kp LS(RPAR)  &kp LS(DQT)    &kp LS(STAR)  &trans  &bt BT_CLR_ALL
 &trans  &trans         &kp TILDE2     &kp LS(AT)     &kp LS(POUND)  &kp LS(COLON)  &trans    &trans  &trans        &trans      &kp SEMI      &kp LS(DLLR)  &kp LS(PRCNT)  &kp DOT       &trans  &trans
         &trans         &trans         &trans         &trans         &trans                           &trans        &trans      &trans        &trans        &trans
             >;
