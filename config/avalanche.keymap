@@ -75,5 +75,15 @@
         &trans         &trans         &trans         &trans         &trans                           &trans        &trans      &trans        &trans        &trans
             >;
         };
+
+        ARROWS {
+            bindings = <
+&trans     &trans    &trans     &trans  &trans    &trans                  &trans  &trans    &trans    &trans    &trans     &trans
+&trans     &trans    &trans     &trans  &trans    &trans                  &trans  &trans    &trans    &trans    &trans     &trans
+&trans     &trans    &trans     &trans  &trans    &trans  &trans                  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans  &trans
+&kp LSHFT  &trans    &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans     &trans  &trans  &trans
+           &kp LGUI  &kp LCTRL  &trans  &kp LALT  &trans                  &trans  &trans    &trans    &kp RALT  &kp LGUI
+            >;
+        };
     };
 };
