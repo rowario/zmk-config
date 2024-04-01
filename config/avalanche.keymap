@@ -60,7 +60,7 @@
             bindings = <
 &trans          &trans        &trans     &trans  &trans    &trans                  &trans  &trans  &trans  &trans    &trans    &trans
 &trans          &kp F1        &kp F2     &kp F3  &kp F4    &kp F5                  &kp F6  &kp F7  &kp F8  &kp F9    &kp F10   &kp PRINTSCREEN
-&trans          &trans        &kp N1     &kp N2  &kp N3    &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0           &trans  &trans
+&trans          &trans        &kp N1     &kp N2  &kp N3    &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0           &trans  &bt BT_CLR
 &kp LEFT_SHIFT  &trans        &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans           &trans  &kp RSHIFT
                 &kp LEFT_GUI  &kp LCTRL  &trans  &kp LALT  &trans                  &trans  &trans  &trans  &kp RALT  &kp RGUI
             >;
@@ -68,11 +68,11 @@
 
         SYMBOLS {
             bindings = <
-&trans  &trans         &trans         &trans         &trans         &trans                           &trans        &trans      &trans        &trans        &trans         &trans
-&trans  &kp LS(UNDER)  &kp LS(PIPE)   &kp MINUS      &kp LS(LT)     &kp EQUAL                        &kp LS(EXCL)  &kp LS(GT)  &kp PLUS      &kp FSLH      &kp LS(AMPS)   &trans
-&trans  &trans         &kp LS(CARET)  &kp LS(TILDE)  &kp LS(LPAR)   &kp LS(LBRC)   &kp LBKT                        &kp RBKT    &kp LS(RBRC)  &kp LS(RPAR)  &kp LS(DQT)    &kp LS(STAR)  &trans  &bt BT_CLR
-&trans  &trans         &kp TILDE2     &kp LS(AT)     &kp LS(POUND)  &kp LS(COLON)  &trans    &trans  &trans        &trans      &kp SEMI      &kp LS(DLLR)  &kp LS(PRCNT)  &kp DOT       &trans  &trans
-        &trans         &trans         &trans         &trans         &trans                           &trans        &trans      &trans        &trans        &trans
+&trans      &trans         &trans         &trans         &trans         &trans                           &trans        &trans      &trans        &trans        &trans         &trans
+&trans      &kp LS(UNDER)  &kp LS(PIPE)   &kp MINUS      &kp LS(LT)     &kp EQUAL                        &kp LS(EXCL)  &kp LS(GT)  &kp PLUS      &kp FSLH      &kp LS(AMPS)   &trans
+&bt BT_CLR  &trans         &kp LS(CARET)  &kp LS(TILDE)  &kp LS(LPAR)   &kp LS(LBRC)   &kp LBKT                        &kp RBKT    &kp LS(RBRC)  &kp LS(RPAR)  &kp LS(DQT)    &kp LS(STAR)  &trans  &bt BT_CLR
+&trans      &trans         &kp TILDE2     &kp LS(AT)     &kp LS(POUND)  &kp LS(COLON)  &trans    &trans  &trans        &trans      &kp SEMI      &kp LS(DLLR)  &kp LS(PRCNT)  &kp DOT       &trans  &trans
+            &trans         &trans         &trans         &trans         &trans                           &trans        &trans      &trans        &trans        &trans
             >;
         };
 
